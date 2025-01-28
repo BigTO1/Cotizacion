@@ -71,7 +71,7 @@ main {
 }
 
 table {
-    width: 70%;
+    width: 60%;
     border-collapse: collapse;
     text-align: center;
     font-size: 12px;
@@ -149,7 +149,7 @@ td p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
 }
 
