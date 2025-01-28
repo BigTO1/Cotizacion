@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+}
+
+
+header {
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 150px;
+    margin-left: 120px;
+    
+}
+.titulo {
+    color: #2a7db1;
+    margin-bottom: 10px;
+}
+
+.contenedor-nota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nota-izquierda {
+    text-align: left;
+    width: 50%;
+}
+
+.nota-derecha {
+    text-align: right;
+    width: 40%;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #2a7db1;
+    margin-bottom: 10px;
+}
+
+.campo {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 8px;
+}
+
+
+.campo p {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #d0cece; 
+    padding: 1px 10px;
+}
+
+td {
+    padding: 8px 20px;
+}
+
+
+
+td p {
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid black; 
+    white-space: nowrap;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+.cantidad,.numero,.codigo{
+    text-align: center;
+}
+
+
+
+.resumen {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    width: 300px;
+    margin: 30px 130px;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #2a7db1;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.campo-valores {
+    display: grid;
+    grid-template-columns: 20px auto;
+    align-items: center;
+    border-bottom: 1px solid #c08036;
+    padding-bottom: 2px;
+}
+
+.campo-valores span {
+    text-align: center;
+}
+
+.campo-valores p {
+    margin: 0;
+    text-align: right;
+    width: 100%;
+}
+
+.garantia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.detalle-garantia {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.garantia-medio {
+    font-size: 14px;
+    color: gray;
+}
+
+.firmas {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.firma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.linea {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.nombre-firma {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}

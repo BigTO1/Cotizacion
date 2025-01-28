@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota de Renta</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="PROP HOUSE">
+            <h1 class="titulo">BODEGA DE ARTE</h1>
+            <div class="contenedor-nota">
+                <div class="nota-izquierda">
+                    <h2 class="subtitulo">NOTA DE RENTA</h2>
+                    <div class="campo">
+                        <span>PROYECTO:</span>
+                        <p id="proyecto"></p>
+                    </div>
+                    <div class="campo">
+                        <span>DIRECTOR (A):</span>
+                        <p id="director"></p>
+                    </div>
+                    <div class="campo">
+                        <span>DECORADOR (A):</span>
+                        <p id="decorador"></p>
+                    </div>
+                    <div class="campo">
+                        <span>ASISTENTE DECO:</span>
+                        <p id="asistente"></p>
+                    </div>
+                </div>
+                <div class="nota-derecha">
+                    <div class="campo">
+                        <span>RENTÓ:</span>
+                        <p id="rento"></p>
+                    </div>
+                    <div class="campo">
+                        <span>PERIODO DE RENTA:</span>
+                        <p id="periodo"></p>
+                    </div>
+                    <div class="campo">
+                        <span>DEVOLUCIÓN:</span>
+                        <p id="devolucion"></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>CANT</th>
+                        <th>CÓDIGO</th>
+                        <th>DESCRIPCIÓN</th>
+                        <th>SUBTOTAL</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-items"></tbody>
+            </table>
+        </main>
+        <footer>
+            <div class="resumen">
+                <div class="labels">
+                    <p>SUBTOTAL</p>
+                    <p>IMPUESTOS</p>
+                    <p>TOTAL</p>
+                </div>
+                <div class="valores">
+                    <div class="campo-valores">
+                        <span>$</span>
+                        <p id="subtotal"></p>
+                    </div>
+                    <div class="campo-valores">
+                        <span>$</span>
+                        <p id="impuestos"></p>
+                    </div>
+                    <div class="campo-valores">
+                        <span>$</span>
+                        <p id="total"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="garantia">
+                <div class="detalle-garantia">
+                    <p class="garantia-titulo">DEJA GARANTÍA: <span>$28,000,00</span></p>
+                    <p class="garantia-medio">TRANSFERENCIA ELECTRÓNICA</p>
+                </div>
+            
+                <div class="firmas">
+                    <div class="firma">
+                        <p>AUTORIZÓ</p>
+                        <div class="linea"></div>
+                        <p class="nombre-firma">NOMBRE Y FIRMA</p>
+                    </div>
+            
+                    <div class="firma">
+                        <div class="linea"></div>
+                    </div>
+            
+                    <div class="firma">
+                        <p>ENTREGÓ</p>
+                        <div class="linea"></div>
+                        <p class="nombre-firma">NOMBRE Y FIRMA</p>
+                    </div>
+                </div>
+            </div>                    
+        </footer>
+        
+    </div>
+</body>
+</html>
